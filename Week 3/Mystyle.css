@@ -1,0 +1,53 @@
+p {
+    color: green;
+    background-color: khaki;
+    font-size: xx-large;
+    text-align: center;
+    width: 80%;
+    border: thick red solid;
+    padding: 2px 10px;
+}
+
+#s1234567 {
+    color: red;
+}
+
+h1,
+h2,
+h3 {
+    font-family: sans-serif;
+}
+
+/* class strike */
+.strike {
+    text-decoration: line-through;
+    color: blue
+}
+
+.strike2 {
+    text-decoration: line-through;
+    color: purple
+}
+
+ol {
+    color: green;
+    font-weight: bold;
+}
+
+
+
+ol li {
+    color: red;
+}
+
+ol > li {
+    color: purple;
+}
+
+ol div {
+    color: purple;
+}
+
+ol div ~ h4 {
+    color: orange;
+}
