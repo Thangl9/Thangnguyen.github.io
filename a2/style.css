@@ -1,120 +1,277 @@
 .parallax1 {
-    /* The image used */
-    background-image: url("media2/movie1.jpg");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-    opacity: 0.7;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .parallax2 {
-    /* The image used */
-    background-image: url("media2/movie2.jpg");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-    opacity: 0.9;
+  /* The image used */
+  background-image: url("media2/movie1.jpg");
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .parallax3 {
-    /* The image used */
-    background-image: url("media2/movie3.jpg");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-    opacity: 0.9;
+  /* Set a specific height */
+  min-height: 700px; 
+  opacity: 0.7;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("media2/movie2.jpg");
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .parallax4 {
-    /* The image used */
-    background-image: url("media2/movie2.jpg");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-    opacity: 0.9;
+  /* Set a specific height */
+  min-height: 700px; 
+  opacity: 0.7;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+  /* The image used */
+  background-image: url("media2/movie3.jpg");
 
-.navbar-light .navbar-brand {
-    color: #fff;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-  }
+  /* Set a specific height */
+  min-height: 700px; 
+  opacity: 0.7;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4 {
+  /* The image used */
+  background-image: url("media2/movie2.jpg");
+
+  /* Set a specific height */
+  min-height: 700px; 
+  opacity: 0.7;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
   
-  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-    color: #fff;
-  }
+  margin: 0px;
+  padding: 0px;
+}
+/* Set up the logo position */
+#logo {
+  text-indent: -999999px;
+  background: url('media/logo-op.png');
+  width: 290px;
+  height: 185px;
+  margin: 0px 100px;
   
-  .navbar-light .navbar-nav .nav-link {
-    color: #fff;
-  }
+
   
-  .navbar-toggler {
-    background: #fff;
-  }
+}
+/* Set up the cinema quote */
+span{
+  color: salmon;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: 30px;
   
-  .navbar-nav {
+  
+}
+/* Set up nav bar */
+.sticky{
+  overflow:hidden;
+  width:100%; 
+  color:white; 
+  position:sticky;
+  top:0px;
+  z-index: 1;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  border-top: 1px solid rgba(255, 255, 255, .2);
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  position: sticky;
+  top: 0;
+}
+
+nav ul{
+  display: flex;
+  margin: 0px;
+  padding: 0px, 100px;
+  float: right;
+  
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  display: block;
+  color: white;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: lightsteelblue;
+}
+
+/* Section heading */
+.section-heading{
     text-align: center;
-  }
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 430%;
+    font-family: cursive;
+}
+/* Section quotes */
+.Sectionquote{
+    text-align: center;
+    font-size: 140%;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    color: slategray;
+}
+
+
+
+#Aboutus{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-size: 430%;
+}
+
+.container-1 div{
+   border: 1px #ccc solid;
+   padding: 10px;
+}
+
+.container-1{
+   display: flex;
+   flex-direction: column;
+}
+
+.box1{
+   flex:1
+}
+
+.box2{
+   flex:1;
+}
+
+.auh{
+  font-size: 240%;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: cursive;
   
-  .nav-link {
-    padding: .2rem 1rem;
-  }
+}
+
+.aup3{
+  position: relative;
+  left: 57px;
+  margin-bottom: 20px;
+}
+.aup4{
+position: relative;
+left: 57px;
+margin-bottom: 20px;
+}
+
+
+.aud{
+  font-size: 130%;
+  color: black;
+  text-align: center;
+}
+
+#aup1{
+  position: relative;
+  width: 1345px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+
+}
+
+#aup2{
+  position: relative;
+  width: 1345px;
+  padding-left: 50px;
+
+}
+
+.aup5{
+  position: relative;
+  padding-left: 10px;
+}
+
+table{
+  width: 1300px;
+  position: relative;
+  left: 55px;
+  margin-bottom: 30px;
+  background-image: url(media2/bg2.jpg);
+  background-size: cover;
+
+}
+.carousel-caption {
+  bottom: 270px;
+}
+
+
+
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.showing {
+  text-align: center; 
+  font-family: 'Abril Fatface', cursive;
+  padding: 30px; 
+  font-size: 52px
+}
+.name{
+  font-family: 'IM Fell French Canon SC', serif;
+  margin-top: 15px;
+
+}
+.movie-schedule{
+  margin-top: 30px;
+  font-family: 'Oswald', sans-serif;
   
-  .nav-link.active,.nav-link:focus{
-    color: #fff;
-  }
-  
-  .navbar-toggler {
-    padding: 1px 5px;
-    font-size: 18px;
-    line-height: 0.3;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
-  }
-  
-  
-  .carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  .carousel-caption {
-    bottom: 270px;
-  }
-  
- 
-  
-  .carousel-caption p {
-    width: 75%;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.9;
-  }
+}
+.movie-info{
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+table, th, td{
+  border: 3px solid #000;
+  color: white;
+  font-size: 130%;
+}
+
+th, td{
+  padding: 10px;
+}
+
+#Prices{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 430%;
+    font-family: cursive;
+}
