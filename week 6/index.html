@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="tools.js"></script>
+
+    <script>
+        function clickHandler(){
+            document.getElementById('date').value = Date();
+        }
+    </script>
+
+
+</head>
+<body>
+    <h1 onclick="clickHandler1();">What's the date</h1>
+    
+    <input id="date" onkeypress="clickHandler();" type="text" value="click the button">
+    
+
+    
+    <input onclick="clickHandler();" type="button" value="display date">
+
+
+    <p id="copyright">
+        &copy; Copy right date awareness inc 1990 - 
+    </p>
+
+    <script>
+        var currentDate = new Date();
+        document.getElementById('copyright').innerHTML += currentDate.getFullYear();
+    </script>
+    
+
+    <h6>Ask us about the dyncamic of online dating</h6>
+
+
+
+
+</body>
+</html>
