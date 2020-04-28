@@ -1,10 +1,10 @@
 .parallax1 {
   /* The image used */
-  background-image: url("media2/movie1.jpg");
+  background-color: #FCAF67;
 
   /* Set a specific height */
-  min-height: 700px; 
-  opacity: 0.7;
+  min-height: 18px; 
+  opacity: 0.3;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -13,11 +13,11 @@
 }
 .parallax2 {
   /* The image used */
-  background-image: url("media2/movie2.jpg");
+  background-image: url("media2/poster2.jpg");
 
   /* Set a specific height */
-  min-height: 700px; 
-  opacity: 0.7;
+  min-height: 500px; 
+  opacity: 0.9;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -27,25 +27,11 @@
 }
 .parallax3 {
   /* The image used */
-  background-image: url("media2/movie3.jpg");
+  background-image: url("media2/poster3.jpg");
 
   /* Set a specific height */
-  min-height: 700px; 
-  opacity: 0.7;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.parallax4 {
-  /* The image used */
-  background-image: url("media2/movie2.jpg");
-
-  /* Set a specific height */
-  min-height: 700px; 
-  opacity: 0.7;
+  min-height: 500px; 
+  opacity: 0.85;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -55,7 +41,6 @@
 }
 
 body {
-  
   margin: 0px;
   padding: 0px;
 }
@@ -66,19 +51,15 @@ body {
   width: 290px;
   height: 185px;
   margin: 0px 100px;
-  
-
-  
 }
 /* Set up the cinema quote */
-span{
+#quote{
   color: salmon;
   font-family: sans-serif;
-  font-size: 30px;
-  margin-top: 30px;
-  
-  
+  font-size: 35px;
+  padding-top: 15%;
 }
+
 /* Set up nav bar */
 .sticky{
   overflow:hidden;
@@ -88,6 +69,7 @@ span{
   top:0px;
   z-index: 1;
 }
+
 nav{
   width: 100%;
   height: 50px;
@@ -103,7 +85,6 @@ nav ul{
   margin: 0px;
   padding: 0px, 100px;
   float: right;
-  
 }
 
 nav ul li{
@@ -121,7 +102,8 @@ nav ul li a{
 
 nav ul li a:hover,
 nav ul li a.active {
-  background: lightsteelblue;
+  background: #F3DBCF;
+  color:  #E25B45 ;
 }
 
 /* Section heading */
@@ -137,17 +119,25 @@ nav ul li a.active {
     text-align: center;
     font-size: 140%;
     padding-top: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     color: slategray;
 }
+.list-innovation {
+  padding-left: 30%;
+  font-size: 20px;
+  color: slategray;
+}
 
-
-
-#Aboutus{
+/* About us  */
+#About-us{
     text-align: center;
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 60px;
-    font-size: 430%;
+    font-size: 100%
+}
+.Sectionquote1{
+  text-align:justify ;
+  font-size: 24px;
 }
 
 .container-1 div{
@@ -168,80 +158,80 @@ nav ul li a.active {
    flex:1;
 }
 
+/* New seat and new innovation */
 .auh{
   font-size: 240%;
   padding-bottom: 10px;
   padding-top: 20px;
-  padding-left: 20px;
   font-family: cursive;
   
 }
-
-.aup3{
-  position: relative;
-  left: 57px;
-  margin-bottom: 20px;
-}
-.aup4{
-position: relative;
-left: 57px;
-margin-bottom: 20px;
-}
-
-
 .aud{
-  font-size: 130%;
-  color: black;
-  text-align: center;
+font-size: 130%;
+color: black;
+text-align: justify;
+left: 2%;
 }
 
-#aup1{
-  position: relative;
-  width: 1345px;
-  padding-left: 50px;
-  margin-bottom: 20px;
-
+.aup1{
+margin-bottom: 3%;
+padding-left: 1%;
 }
 
-#aup2{
-  position: relative;
-  width: 1345px;
-  padding-left: 50px;
+.aup2{
+position: relative;
+margin-bottom: 3%;
+padding-left: 2%;
+}
 
+.aup3, .aup4 {
+  position: relative;
+  margin-bottom: 3%;
 }
 
 .aup5{
   position: relative;
-  padding-left: 10px;
+}
+.aup6{
+position: relative;
+}
+
+
+/* Price section */
+#Prices{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 400%;
+  font-family: cursive;
+  color: #E25B45;
 }
 
 table{
-  width: 1300px;
-  position: relative;
-  left: 55px;
-  margin-bottom: 30px;
-  background-image: url(media2/bg2.jpg);
-  background-size: cover;
-
-}
-.carousel-caption {
-  bottom: 270px;
+position: relative;
+margin-bottom: 30px;
+background-image: url(media2/bg2.jpg);
+background-size: cover;
+width: 90%;
+height: 100%;
+left: 3%;
+padding-bottom: 3%;
 }
 
+table, th, td{
+border: 2px solid #000;
+color: white;
+font-size: 140%;
+text-align: center;
 
+}
 
-.carousel-caption p {
-  width: 75%;
-  margin: auto;
-  font-size: 18px;
-  line-height: 1.9;
+th, td{
+padding-top: 2px;
+padding-bottom: 2px;
 }
-.showing {
-  text-align: center; 
-  font-family: 'Abril Fatface', cursive;
-  padding: 30px; 
-  font-size: 52px
-}
+
+/* now showing */
 .name{
   font-family: 'IM Fell French Canon SC', serif;
   margin-top: 15px;
@@ -256,22 +246,13 @@ table{
   font-family: 'Oswald', sans-serif;
 }
 
+.showing {
+text-align: center; 
+font-family: 'Abril Fatface', cursive;
+font-size: 180%;
+color: #E25B45;
+padding-top: 60px;
 
-
-table, th, td{
-  border: 3px solid #000;
-  color: white;
-  font-size: 130%;
 }
 
-th, td{
-  padding: 10px;
-}
 
-#Prices{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-size: 430%;
-    font-family: cursive;
-}
