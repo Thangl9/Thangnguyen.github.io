@@ -9,6 +9,7 @@
   <!-- Keep wireframe.css for debugging, add your css to style.css -->
   <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
   <link id='stylecss' type="text/css" rel="stylesheet" href="./style.css">
+  <script async defer src='movieweb.js'></script>
   <script src='../wireframe.js'></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -227,7 +228,7 @@
       <section class="container-fluid" style="background-color: whitesmoke;">
         <div class="col-sm-12" style="padding-top: 8px; padding-bottom: 8px;">
           <div class=" d-flex row justify-content-center my-3">
-            <div class="col-xs-5 col-md-5 col-sm-12 mx-2 "
+            <div id="moviePanelAM" class="col-xs-5 col-md-5 col-sm-12 mx-2 "
               style="background-color: #F3DBCF; padding-top: 8px;padding-bottom: 8px;">
               <div class="row px-1">
                 <div class="col-sm-6">
@@ -249,59 +250,10 @@
                       <br /> <b> Sunday </b>: 6pm (T18)
                     </p>
                   </div>
-                  <button type="button" class="btn btn-light" style="font-family: 'Oswald', sans-serif;"
-                    data-toggle="modal" data-target=".bd-example-modal-lg">See more</button>
-                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-                    aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                      <div class="modal-content" style="background-color: #FFDECD; background-size: cover; ">
-                        <div class="row">
-                          <div class="col-sm-9">
-                            <h5 class="modal-title" id="exampleModalLabel"
-                              style="font-size: 40px; padding-left: 20px; font-family:'Franklin Gothic Medium'; text-decoration: underline;">
-                              Happy Prince <span style="margin-left: 200px;">PG</span></h5>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-4" style="padding-top: 4%; padding-bottom: 4%; padding-left: 2%;">
-                            <h7 style="font-size: 32px; padding-left: 5%; font-family:'Franklin Gothic Medium';">
-                              Plot Description
-                            </h7>
-                            <p style="text-align: left; margin-left: 10px; font-size: 18px;">
-                              The Happy
-                              Prince by
-                              Oscar Wilde is the story of a statue, the Happy Prince, covered with gold and
-                              many fine
-                              jewels. It sits overlooking the city. One day, a swallow passing through seeks
-                              shelter
-                              under the statue and discovers the prince is not happy, but sad </p>
-                          </div>
-                          <div class="col-sm-8">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/4HmN9r1Fcr8"
-                              frameborder="0"
-                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                              allowfullscreen></iframe>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-3">
-                            <label style="margin: 4% 0 0 0; font-size: 20px;  padding-left: 4%;">
-                              <b>Make a
-                                booking: </b> </label>
-                          </div>
-                          <div class="col-sm-9" style="color:grey;">
-                            <button type="button" class="btn btn-outline-warning"> Wednesday: 12pm (T12)</button>
-                            <button type="button" class="btn btn-outline-danger"> Friday: 12pm (T12)</button>
-                            <button type="button" class="btn btn-outline-dark"> Saturday: 9pm (T21)</button>
-                            <button type="button" class="btn btn-outline-info"> Sunday: 9pm (T21)</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
+            
             <div class="col-xs-5 col-md-5 col-sm-12 mx-2 "
               style="background-color: #F3DBCF;padding-top: 8px;padding-bottom: 8px;">
               <div class="row px-1">
@@ -324,54 +276,10 @@
                       <br /> <b> Sunday </b>: 3pm (T15)
                     </p>
                   </div>
-                  <button type="button" class="btn btn-light" style="font-family: 'Oswald', sans-serif;"
-                    data-toggle="modal" data-target=".bd-example-modal-lg">See more</button>
-
-                  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-                    aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                      <div class="modal-content" style="background-color: #FFDECD; background-size: cover; ">
-                        <div class="row">
-                          <div class="col-sm-9">
-                            <h5 class="modal-title" id="exampleModalLabel"
-                              style="font-size: 40px; padding-left: 20px; font-family:'Franklin Gothic Medium'; text-decoration: underline;">
-                              Happy99999 Prince <span style="margin-left: 200px;">PG</span></h5>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-4" style="padding-top: 4%; padding-bottom: 4%; padding-left: 2%;">
-                            <h7 style="font-size: 32px; padding-left: 5%; font-family:'Franklin Gothic Medium';">
-                              Plot Description
-                            </h7>
-                            <p style="text-align: left; margin-left: 10px; font-size: 18px;">
-                              Thand discovers the prince is not happy, but sad </p>
-                          </div>
-                          <div class="col-sm-8">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/4HmN9r1Fcr8"
-                              frameborder="0"
-                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                              allowfullscreen></iframe>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-3">
-                            <label style="margin: 4% 0 0 0; font-size: 20px;  padding-left: 4%;">
-                              <b>Make a
-                                booking: </b> </label>
-                          </div>
-                          <div class="col-sm-9" style="color:grey;">
-                            <button type="button" class="btn btn-outline-warning"> Wednesday: 12pm (T12)</button>
-                            <button type="button" class="btn btn-outline-danger"> Friday: 12pm (T12)</button>
-                            <button type="button" class="btn btn-outline-dark"> Saturday: 9pm (T21)</button>
-                            <button type="button" class="btn btn-outline-info"> Sunday: 9pm (T21)</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
+
           </div>
           <div style=" margin-top:7.5px;">
             <div class=" d-flex row justify-content-center my-3">
@@ -400,53 +308,10 @@
                         <br /> <b> Sunday </b>: 12pm (T12)
                       </p>
                     </div>
-                    <button type="button" class="btn btn-light" style="font-family: 'Oswald', sans-serif;"
-                      data-toggle="modal" data-target=".bd-example-modal-lg">See more</button>
-                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-                      aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                      <div class="modal-dialog modal-xl">
-                        <div class="modal-content" style="background-color: #FFDECD; background-size: cover; ">
-                          <div class="row">
-                            <div class="col-sm-9">
-                              <h5 class="modal-title" id="exampleModalLabel"
-                                style="font-size: 40px; padding-left: 20px; font-family:'Franklin Gothic Medium'; text-decoration: underline;">
-                                Happy Prince <span style="margin-left: 200px;">PG</span></h5>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-sm-4" style="padding-top: 4%; padding-bottom: 4%; padding-left: 2%;">
-                              <h7 style="font-size: 32px; padding-left: 5%; font-family:'Franklin Gothic Medium';">
-                                Plot Description
-                              </h7>
-                              <p style="text-align: left; margin-left: 10px; font-size: 18px;">
-                                Tand discovers the prince is not happy, but sad </p>
-                            </div>
-                            <div class="col-sm-8">
-                              <iframe width="560" height="315" src="https://www.youtube.com/embed/4HmN9r1Fcr8"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-sm-3">
-                              <label style="margin: 4% 0 0 0; font-size: 20px;  padding-left: 4%;">
-                                <b>Make a
-                                  booking: </b> </label>
-                            </div>
-                            <div class="col-sm-9" style="color:grey;">
-                              <button type="button" class="btn btn-outline-warning"> Wednesday: 12pm (T12)</button>
-                              <button type="button" class="btn btn-outline-danger"> Friday: 12pm (T12)</button>
-                              <button type="button" class="btn btn-outline-dark"> Saturday: 9pm (T21)</button>
-                              <button type="button" class="btn btn-outline-info"> Sunday: 9pm (T21)</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
+
               <div class="col-xs-5 col-md-5 col-sm-12 mx-2 "
                 style="background-color: #F3DBCF;padding-top: 8px; padding-bottom: 8px;">
                 <div class="row px-1">
@@ -469,58 +334,6 @@
                         <br /> <b> Sunday </b>: 9pm (T21)
                       </p>
                     </div>
-                    <button type="button" class="btn btn-light" style="font-family: 'Oswald', sans-serif;"
-                      data-toggle="modal" data-target=".bd-example-modal-lg">See more</button>
-
-                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-                      aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                      <div class="modal-dialog modal-xl">
-                        <div class="modal-content" style="background-color: #FFDECD; background-size: cover; ">
-                          <div class="row">
-                            <div class="col-sm-9">
-                              <h5 class="modal-title" id="exampleModalLabel"
-                                style="font-size: 40px; padding-left: 20px; font-family:'Franklin Gothic Medium'; text-decoration: underline;">
-                                Happy Prince <span style="margin-left: 200px;">PG</span></h5>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-sm-4" style="padding-top: 4%; padding-bottom: 4%; padding-left: 2%;">
-                              <h7 style="font-size: 32px; padding-left: 5%; font-family:'Franklin Gothic Medium';">
-                                Plot Description
-                              </h7>
-                              <p style="text-align: left; margin-left: 10px; font-size: 18px;">
-                                The Happy
-                                Prince by
-                                Oscar Wilde is the story of a statue, the Happy Prince, covered with gold and
-                                many fine
-                                jewels. It sits overlooking the city. One day, a swallow passing through seeks
-                                shelter
-                                under the statue and discovers the prince is not happy, but sad </p>
-                            </div>
-                            <div class="col-sm-8">
-                              <iframe width="560" height="315" src="https://www.youtube.com/embed/4HmN9r1Fcr8"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-sm-3">
-                              <label style="margin: 4% 0 0 0; font-size: 20px;  padding-left: 4%;">
-                                <b>Make a
-                                  booking: </b> </label>
-                            </div>
-                            <div class="col-sm-9" style="color:grey;">
-                              <button type="button" class="btn btn-outline-warning"> Wednesday: 12pm (T12)</button>
-                              <button type="button" class="btn btn-outline-danger"> Friday: 12pm (T12)</button>
-                              <button type="button" class="btn btn-outline-dark"> Saturday: 9pm (T21)</button>
-                              <button type="button" class="btn btn-outline-info"> Sunday: 9pm (T21)</button>
-
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -529,7 +342,60 @@
           </div>
       </section>
     </div>
+
     <!-- End of now showing section  -->
+    
+    <!-- Sypnosis area -->
+    <br>
+
+    <div class="wrapper" id="sypnosis">
+      <div class="row">
+        <div class="col-sm-9">
+          <h5 id="sypname" class="modal-title" id="exampleModalLabel"
+            style="font-size: 40px; padding-left: 20px; font-family:'Franklin Gothic Medium'; text-decoration: underline;">
+            Dumbo <span id="syprate" style="margin-left: 200px;">Rated: MA</span></h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4" style="padding-top: 4%; padding-bottom: 4%; padding-left: 2%;">
+          <h7 style="font-size: 32px; padding-left: 5%; font-family:'Franklin Gothic Medium';">
+            Plot Description
+          </h7>
+          <p id="sypplot" style="text-align: left; margin-left: 10px; font-size: 18px;">
+            Struggling circus owner Max Medici enlists former star
+            Holt Farrier and his children Milly and Joe to care for Dumbo,
+              a baby elephant whose oversized ears make him the circus' laughing stock.
+              But when they discover that Dumbo can fly, the circus makes an incredible comeback, 
+              attracting persuasive entrepreneur V.A. </p>
+        </div>
+        <div class="col-sm-8">
+          <iframe style="padding-left: 10%;" width="560" height="315" src="https://www.youtube.com/embed/ocWpGdITSR4"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <label style="margin: 4% 0 0 0; font-size: 20px;  padding-left: 4%;">
+            <b>Make a
+              booking: </b> </label>
+        </div>
+        <div class="col-sm-9" style="color:grey;">
+          <button type="button" class="btn btn-outline-warning"> Monday: 12pm (T12)</button>
+          <button type="button" class="btn btn-outline-danger"> Tuesday: 12pm (T12)</button>
+          <button type="button" class="btn btn-outline-warning"> Wednesday: 6pm (T18)</button>
+          <button type="button" class="btn btn-outline-danger"> Friday: 6pm (T18)</button>
+          <button type="button" class="btn btn-outline-dark"> Saturday: 12pm (T12)</button>
+          <button type="button" class="btn btn-outline-info"> Sunday: 12pm (T12)</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
 
     <!-- Booking area section -->
     <div class="parallax2"></div>
@@ -539,6 +405,26 @@
       <img style="padding-left: 8%;" src="./media2/under-construction.png" alt="">
     </section>
     <!-- End of booking section  -->
+
+    <script type="text/Javascript">
+      var moviePanelAM = document.getElementById("moviePanelAM");
+      var syprate = document.getElementById("syprate");
+      var sypplot = document.getElementById("sypplot");
+
+      function changesyp() {
+        document.getElementById("sypname").innerHTML = "New text!";
+        syprate.innerHTML = "New text  kjewdkjwndkjqwndk!";
+        sypplot.innerHTML = "New textwqdwNDLQWNDQ!";
+      }
+        
+
+
+
+        moviePanelAM.addEventListener("click", function(){changesyp()});
+    
+    </script>
+
+
   </main>
 
   <!-- Footer  -->
